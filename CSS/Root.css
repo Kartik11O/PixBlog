@@ -1,0 +1,15 @@
+:root{
+    --font:'Aboreto', cursive;
+    --Headline: 'Roboto Condensed', sans-serif;
+}
+
+.Hoverr{
+    animation: h 1s both;
+}
+
+@keyframes h {
+    0%{
+        transform: translateX(-50px);
+    }
+    
+}

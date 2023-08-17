@@ -1,0 +1,47 @@
+html{
+    font-size: 50%;
+}
+#Profile {
+ position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    opacity: 0.9;
+}
+#Background {
+    width: 100%;
+}
+#Nav {
+    width: 100%;
+}
+#Name {
+    font-size: 24px;
+    margin: initial;
+}
+#Para {
+    margin:0px;
+    margin-top: 18px;
+    width: 75vw;
+    margin-bottom:10px;
+    font-size: 1.6rem;
+}
+.Nav_Open{
+    width: 100% !important;
+    height: 85vh !important;
+}
+.Nav_Content {
+    font-size: 2.7rem;
+}
+.rows {
+    height: max-content;
+    flex-wrap: wrap;
+}
+#Container-2 {
+    height: max-content;
+}
+#Section-2 {
+    height: max-content;
+}
+
