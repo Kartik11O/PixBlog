@@ -1,0 +1,63 @@
+@media all and (max-device-width: 967px) and (orientation: landscape){
+    html{
+        font-size: 50%;
+    }
+    #Section-1 {
+        height: clamp(200px, 116vh, 750px);
+    }
+    #Container-1 {
+        height: clamp(200px, 116vh, 750px);
+    }
+    #Profile {
+     position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        opacity: 0.9;
+    }
+    #Background {
+        width: 100%;
+    }
+    #Nav {
+        width: 100%;
+    }
+    #Name {
+        font-size: 24px;
+        margin: initial;
+        margin-top: 7px;
+    }
+    #Para {
+        margin: 0px;
+        margin-top: 10px;
+        width: 75vw;
+        margin-bottom: 10px;
+        font-size: 1.6rem;
+    }
+    .Nav_Open{
+        width: 100% !important;
+        height: 100vh !important;
+    }
+    .Nav_Content {
+        font-size: 2.7rem;
+    }
+    .rows {
+        height: max-content;
+    }
+    #Container-2 {
+        height: max-content;
+    }
+    #Section-2 {
+        height: max-content;
+    }
+    
+    #Container-3 {
+        height: max-content;
+    }
+    #Section-3 {
+        height: max-content;
+    }
+    
+     
+}
