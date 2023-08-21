@@ -3,8 +3,29 @@
     width: clamp(200px, 100%, 100%);
     height: clamp(200px, 101vh, 754px);
     background-color: #000000 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #Container-3 {
+    position: relative;
+    width: clamp(200px, 100%, 1536px);
+    height: clamp(200px, 101vh, 754px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#Section-4 {
+    position: relative;
+    width: clamp(200px, 100%, 100%);
+    height: clamp(200px, 101vh, 754px);
+    background-color: #000000 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Container-4 {
     position: relative;
     width: clamp(200px, 100%, 1536px);
     height: clamp(200px, 101vh, 754px);

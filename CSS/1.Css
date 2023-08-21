@@ -24,12 +24,15 @@ body {
 #Section-1 {
     position: relative;
     width: clamp(200px, 100%, 100%);
-    height: clamp(200px, 100vh, 747px);
+    height: clamp(200px, 105vh, 750px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #Container-1 {
     position: relative;
     width: clamp(200px, 100%, 1536px);
-    height: clamp(200px, 100vh, 747px);
+    height: clamp(200px, 105vh, 750px);
     display: flex;
 }
 
@@ -92,6 +95,16 @@ body {
     margin-left: 25px;
     color: #fff;
     animation: Nav 2s infinite;
+}
+#Nav_BTN-2 {
+    font-size: 34px;
+    font-weight: 100;
+    margin: auto;
+    margin-top: 25px;
+    margin-left: 25px;
+    color: #b51515;
+    animation: Nav 2s infinite;
+    display: none;
 }
 /* @keyframes Nav {
     0% {
@@ -166,21 +179,6 @@ li{
     }
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #Background {
     width: 77vw;
