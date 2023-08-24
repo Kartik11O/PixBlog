@@ -52,3 +52,6 @@ html{
     height: max-content;
 }
 
+#ul li a {
+    font-size: 28px;
+}
